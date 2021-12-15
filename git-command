@@ -29,3 +29,47 @@ git log --all --graph
 git log --oneline
 git log --oneline -n4 
 git help --web log
+
+
+---
+2021-12-15:22:54
+
+git branch -av
+
+git cat-file -t
+git cat-file -p
+git cat-file -s
+
+git obj
+==
+commit 提交的镜像
+tree	目录文件夹
+blog	文件
+
+git diff HEAD HEAD~
+git diff HEAD HEAD~1
+git diff HEAD HEAD~2
+git diff HEAD HEAD^
+git diff HEAD HEAD^^
+
+
+git branch -d
+git branch -D
+
+git reset --soft
+git reset --hard (git reflog)
+git reset = git reset --mixed
+
+git stash 
+git stash list
+git apply
+git pop 
+git stash clear
+git stash drop 
+
+git revert HEAD
+
+git revert [倒数第一个提交] [倒数第二个提交]
+
+
+
