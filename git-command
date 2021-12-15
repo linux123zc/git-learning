@@ -71,5 +71,11 @@ git revert HEAD
 
 git revert [倒数第一个提交] [倒数第二个提交]
 
+git checkout -- filename 撤销工作区文件的修改
 
+git rm --cached filename 从暂存区撤销文件
 
+撤销分支变化 (撤销当前分支的变化，将这些变化放到另外一个新建的分支)
+git branch feature
+git reset --hard commit-id
+git checkout feature
