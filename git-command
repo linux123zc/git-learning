@@ -35,3 +35,55 @@ fuck you so
 soadifosajifoisoadjf
 sdajfioesiad
 dosaopf
+=======
+git help --web log
+
+
+---
+2021-12-15:22:54
+
+git branch -av
+
+git cat-file -t
+git cat-file -p
+git cat-file -s
+
+git obj
+==
+commit 提交的镜像
+tree	目录文件夹
+blog	文件
+
+git diff HEAD HEAD~
+git diff HEAD HEAD~1
+git diff HEAD HEAD~2
+git diff HEAD HEAD^
+git diff HEAD HEAD^^
+
+
+git branch -d
+git branch -D
+
+git reset --soft
+git reset --hard (git reflog)
+git reset = git reset --mixed
+
+git stash 
+git stash list
+git apply
+git pop 
+git stash clear
+git stash drop 
+
+git revert HEAD
+
+git revert [倒数第一个提交] [倒数第二个提交]
+
+git checkout -- filename 撤销工作区文件的修改
+
+git rm --cached filename 从暂存区撤销文件
+
+撤销分支变化 (撤销当前分支的变化，将这些变化放到另外一个新建的分支)
+git branch feature
+git reset --hard commit-id
+git checkout feature
