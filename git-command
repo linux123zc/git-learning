@@ -28,4 +28,7 @@ git log --all
 git log --all --graph
 git log --oneline
 git log --oneline -n4 
+
 git help --web log
+
+fuck you so 
