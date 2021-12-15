@@ -29,6 +29,3 @@ git log --all --graph
 git log --oneline
 git log --oneline -n4 
 git help --web log
-
-## 2021-21-15 22:09
-git stash learning 
