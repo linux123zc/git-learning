@@ -79,3 +79,28 @@ git rm --cached filename 从暂存区撤销文件
 git branch feature
 git reset --hard commit-id
 git checkout feature
+
+
+---
+2021-12-16 23:09
+git cherry-pick commit-id
+
+git cherry-pick --continue
+
+git fetch remoteaddr
+
+git log github/master
+
+git rebase -i
+
+pick
+squash
+reword
+edit
+
+add .gitignore
+
+git rm -r --cached .
+git add .
+git commit -m 'update .gitignore'
+git push origin master
